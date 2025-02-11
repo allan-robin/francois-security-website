@@ -1,0 +1,410 @@
+
+/* Doc setting */
+html{
+    font-family:Arial, sans-serif
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+/* Navigation Bar */
+header{
+    background-color: navy;
+}
+
+.container-nav-bar{
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.nav-bar-options{
+    list-style:none;
+    display:flex;
+    padding:0;
+    justify-content: space-evenly;
+    align-content: center;
+    min-height:60px;
+    height:60px;
+    margin:0;
+}
+
+.nav-bar-options li{
+    color:white;
+    background-color:rgba(255, 255, 255, 0.1);
+    font-size:0.9375em;
+    font-family:sans-serif,'Times New Roman';
+    padding:10px 20px ;
+    margin:auto;
+    border-radius:20px;
+    text-decoration:none;
+}
+
+.nav-bar-options li:hover{
+    transform: scale(1.1);
+    transition: all 0.45s ease;
+    cursor: pointer;
+}
+
+.nav-bar-options a{
+    text-decoration: none;
+    color:white;
+}
+
+/* WIP make button background change to full width when active
+.nav-bar-options a:active{
+    background-color: rgba(224, 248, 38, 0.571);
+    transition: all background-color 0.1s ease;
+    cursor: pointer;
+}
+*/
+
+.nav-bar-options a:visited{
+    color:white;
+}
+
+/*-------------Company Logo Section------------  */
+
+
+
+.container-section-page-brand{
+border-bottom:1px solid black;
+border-radius:0 0px 10px 10px ;
+margin-bottom:25px;
+margin-top:0;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+background-color: white;
+background-image: url('/assets/bay-front-Dominica-image-transp7perc.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.container-fig-company-logo{
+display:flex;
+justify-content: center;
+align-content: center;
+margin-top:0;
+margin-bottom:0px;
+}
+
+.company-name{
+    margin-top:0px;
+    text-align: center;
+    font-family: 'Arial', Times, serif;
+    text-align:center;
+}
+
+.company-motto{
+    text-align: center;
+    color:#FED700;
+    text-shadow: 0px 0px 5px #000;
+}
+
+/* About Us Section */
+.section-about-us{
+    display: flex;
+    justify-content: center;
+    align-content:center;
+}
+
+#vid-about-us{
+    border-radius:10px;
+    width:560px;
+    height:315px; 
+}
+
+/*Design box shadow for main content */
+
+#container-shadow-main-content{
+    box-shadow: 0 0px 25px rgba(15, 8, 8, 0.4);
+    border-radius:10px;
+    border-top:1px solid gray;
+    border-bottom:1px solid gray;
+    margin-top:40px;
+    padding-bottom:40px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+/* box-shadow: 0 -10px 12px rgba(0, 0, 0, 0.2);*/
+
+/*  Our Services Section */
+
+#section-services{
+    border-bottom: 1px solid gray;
+    padding-bottom:10px;
+}
+
+.section-services-title{
+    font-family:arial, sans-serif;
+    text-align: center;
+}
+
+.container-our-services{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family:Arial, sans-serif;
+}
+
+.container-our-services figure{
+display: flex;
+justify-content:center;
+align-content:center;
+}
+
+.container-our-services h3{
+    text-align:center;
+    }
+.container-our-services ul{
+    line-height: 30px;
+    list-style: none;
+    text-align: center;
+    padding-left:0px;
+    }
+
+/* Services images */
+    #general-security-img{
+        width: 6.25em;
+    }
+
+    #consultancy-img{
+        width: 6.25em;
+    }
+
+    #service-special-operations-img{
+        width: 6.25em;
+    }
+
+    #institute-img{
+        width:6.25em;
+    }
+    
+    /* Employee Application Section */
+#section-apply-now{
+    margin:10px 0 20px 0;
+    padding-bottom:20px;
+    border-bottom:1px solid gray;
+}
+
+.container-apply-now {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: justify;
+}
+
+#section-apply-now h2, h3{
+    text-align: center;
+}
+
+.container-apply-now-info{
+    display:flex;
+    flex-direction: column;
+    margin-left:105px;
+    margin-right:105px;
+}
+
+.container-apply-now-info label{
+    text-align: center;
+}
+
+
+.container-apply-now ol{
+   line-height: 30px;
+}
+
+.container-apply-now p:nth-of-type(2){
+color:red;
+}
+
+
+
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+.button-container button{
+    background-image:linear-gradient(#FED700, #ffac33);
+    padding:10px 50px;
+}
+
+.button-container a{
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-container a:visited{
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-container button:hover{
+    transform:scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.button-container button:active{
+    transform:scale(1);
+    transition: transform ease;
+}
+
+/* Find us section */
+.section-find-us{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.section-find-us h2{
+    text-align: center;
+}
+
+.section-find-us iframe{
+    border-radius:10px;
+    width:560px;
+    height:315px; 
+}
+
+/* back to top button */
+.footer-container-page-top-button{
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+    margin-bottom:20px;
+}
+
+.page-top-button{
+    text-align: center;
+    width:100px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius:25px;
+    background-color: gray;
+}
+.page-top-button{
+    text-decoration: none;
+    color:white;
+}
+
+.page-top-button:visited{
+    text-decoration: none;
+    color:white;
+}
+
+
+.page-top-button:hover{
+    text-decoration: none;
+    transform: scale(1.1);
+    transition: all 0.45s ease;
+    cursor: pointer;
+}
+
+.page-top-button:active {
+    transform:scale(1);
+    transition: transform ease;
+}
+
+.page-top-button:active{
+color: white;
+
+}
+
+/*Contact section */
+
+footer{
+    background-color:navy;
+    border-radius:0px 0px 10px 10px;
+}
+
+
+.ul-contact-info{
+    display:flex;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:0;
+    justify-content: space-evenly;
+    margin-bottom:0;
+    flex-wrap:wrap;
+}
+
+.ul-contact-info li{
+    color:white;
+    list-style:none;
+}
+
+.ul-contact-info a{
+    text-decoration: none;
+    color:white;
+}
+/* For all tablets */
+@media screen and (max-width:767px){
+    .nav-bar-options{
+        flex-wrap: wrap;
+    }  
+    #find-us-map{
+        border-radius:10px;
+        width:360px;
+        height:215px;  
+    }
+    footer li{
+        line-height: 30px;
+        padding-left:10px;
+    }
+    #vid-about-us{
+        border-radius:10px;
+        width:360px;
+        height:215px;
+    }
+}
+
+/* Media for mobile devices */
+@media screen and (max-width:500px) {
+
+    .nav-bar-options{
+        display:none;
+        flex-wrap: wrap;
+    }
+    .container-section-page-brand{
+        border-radius:10px 10px;
+    }
+    #vid-about-us{
+        border-radius:10px;
+        width:360px;
+        height:215px; 
+    }
+.container-our-services{
+    flex-direction: column;
+}
+
+    #section-apply-now h3{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-right:10px ;
+        margin-left:10px;
+        line-height: 30px;
+    }
+    .container-apply-now-info{
+        margin-left:70px;
+        margin-right:70px;
+    }
+
+    #find-us-map{
+        border-radius:10px;
+        width:345px;
+        height:200px;  
+    }
+
+    footer li{
+        line-height: 30px;
+        padding-left:10px;
+    }
+}
+
+/* Media Queries for Desktop */
+
+/*Media Queries for laptops */
+
+/* media Queries for mobile devices */
